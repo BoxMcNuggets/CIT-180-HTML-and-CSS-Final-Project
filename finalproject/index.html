@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css" media="all"/>
+        <link rel="stylesheet" href="css/print.css" media="print"/>
+        <title>Squad Link</title>
+    </head>
+    <body class="bodyhome">
+        <main>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="indexabout.html">About</a>
+                <a href="indexdownload.html">Downloads</a>
+                <a href="#">Contact</a>
+                <a href="indexsuggestion.html">Suggestions</a>
+            </div>
+            <div id="main">
+                <article class="col-6" style="align-content: center;">
+                    <section>
+                        <span class="sidenavmain" style="float: left;" onclick="openNav()">&#9776;</span>
+                        <h1>Squad Link</h1>
+                        <h2><p>A way for Gamers to find and play with other Gamers</p></h2>                
+                    </section>
+                </article>
+                <article class="col-6">
+                    <p><img src="media/Gaming-Web-2.jpg" style="height: 100%;" alt="PS4 Controller"></p>  
+                </article>
+            </div>
+            <script>
+                function openNav() 
+                {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+                function closeNav() 
+                {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                }
+            </script>
+            <footer class="col-12"><p>&copy; Kyle Fink</p></footer>
+        </main>
+    </body>
+</html>

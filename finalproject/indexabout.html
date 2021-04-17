@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css" media="all"/>
+        <link rel="stylesheet" href="css/print.css" media="print"/>
+        <title>Squad Link</title>
+    </head>
+    <body class="bodyabout">
+        <main class="row">
+            <div class="icon-bar">
+                <a href="https://www.twitch.tv/bobross"><i class="fab fa-twitch"></i></a>
+                <a href="https://robinhood.com"><i class="fas fa-feather"></i></a>
+                <a href="https://www.playstation.com/en-us/"><i class="fab fa-playstation"></i></a>
+                <a href="https://www.humblebundle.com/bundles?hmb_source=navbar"><i class="fab fa-steam"></i></a>
+                <a href="https://idp.nmc.edu/nidp/idff/sso?id=NMC-Kerberos-v2&sid=26&option=credential&sid=26&target=https%3A%2F%2Fstudents.nmc.edu%2F"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="indexdownload.html">Downloads</a>
+                <a href="#">Contact</a>
+                <a href="indexsuggestion.html">Suggestions</a>
+            </div>
+            <div id="main">
+                <article class="col-12">
+                    <section>
+                        <span class="sidenavmain" style="float: left;" onclick="openNav()">&#9776;</span>
+                        <h1>About</h1>
+                        <p>Squad Link is a application made in the C# language that allows people all over the world 
+                            find other people with similar skill levels and knowledge of a game. The developer is 
+                            the only one working on the app as a project outside of work to help others find people
+                            and enjoy games. This app allows the people to join a squad of people to play competitive
+                            games or competitive game modes built in games. The app is still in the process of 
+                            being made but is the first of its kind to feature such a wide variety of games 
+                            including big title games like Fortnite, Valorant, Tom Clancys: Rainbow 6 Siege, 
+                            Counter Strike: Global Offence, Rocket League and more.</p>
+                    </section>  
+                </article>                                            
+                <article class="col-6">
+                    <p><img src="media/valorant-offwhitelaunch-keyart.jpg" alt="Valorant"></p>                      
+                </article>
+                <article class="col-6">
+                    <p><img src="media/rainbow-six-siege-logo-header.-1.jpg" alt="Rainbow 6 Siege"></p>  
+                </article>
+            </div>
+            <script>
+                function openNav() 
+                {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                }
+                function closeNav() 
+                {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                }
+            </script>
+            <footer class="col-12"><p>&copy; Kyle Fink</p></footer>
+        </main>
+    </body>        
+</html>
